@@ -3,7 +3,9 @@ p,
 h3 {
 	color: white;
 }
-
+.sectionOneWrapper h2 {
+	margin: 1rem 0;
+}
 .tagline-wrapper {
 	/* width: 100%; */
 	/* background-color: red; */
@@ -18,6 +20,7 @@ h3 {
 	flex-direction: column;
 	align-items: center;
 	padding: 3rem 1rem;
+	/* margin: 1rem 0; */
 	/* background-color: yellow; */
 }
 .how-container {
@@ -26,7 +29,7 @@ h3 {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin: 2rem 0;
+	margin: 0rem 0;
 }
 .how-wrapper {
 	display: flex;
@@ -60,8 +63,7 @@ h3 {
 }
 @media screen and (min-width: 1000px) {
 	.sectionOneWrapper {
-		padding: 3rem 1rem;
-		padding: 0 20rem;
+		padding: 2rem 20rem;
 	}
 	.how-wrapper {
 		height: auto;
