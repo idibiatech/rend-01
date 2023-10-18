@@ -84,10 +84,10 @@ const Navigation = () => {
 				<div className="link-wrapper">
 					<ul>
 						<li>
-							<a href="#">link</a>
+							<a href="#about">About</a>
 						</li>
 						<li>
-							<a href="#">link</a>
+							<a href="#contact">Contact</a>
 						</li>
 						<li className="account">
 							<a href="#">My account</a>

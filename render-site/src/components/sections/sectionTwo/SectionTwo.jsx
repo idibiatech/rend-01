@@ -11,9 +11,9 @@ const SectionTwo = () => {
 				</p>
 			</div>
 			<div className="features-wrapper">
-				<div className="feature  odd">
-					<h3>image</h3>
-					<p></p>
+				<div className="feature  odd feature-img-one">
+					{/* <h3>image</h3> */}
+					{/* <p></p> */}
 				</div>
 				<div className="feature ">
 					<h3>Free Plan</h3>
@@ -21,9 +21,9 @@ const SectionTwo = () => {
 						$0/mo - Ideal for small projects and occasional rendering needs.
 					</p>
 				</div>
-				<div className="feature odd ">
-					<h3>image</h3>
-					<p></p>
+				<div className="feature odd  feature-img-two">
+					{/* <h3>image</h3> */}
+					{/* <p></p> */}
 				</div>
 				<div className="feature ">
 					<h3>Basic Plan</h3>
@@ -39,9 +39,9 @@ const SectionTwo = () => {
 						rendering requirements.
 					</p>
 				</div>
-				<div className="feature  odd ">
-					<h3>image</h3>
-					<p></p>
+				<div className="feature  odd  feature-img-three">
+					{/* <h3>image</h3> */}
+					{/* <p></p> */}
 				</div>
 				<div className="feature   ">
 					<h3>Enterprise Plan</h3>
@@ -49,6 +49,10 @@ const SectionTwo = () => {
 						Custom - Tailored for large enterprises with complex and high-volume
 						rendering demands.
 					</p>
+				</div>
+				<div className="feature odd  feature-img-four">
+					{/* <h3>image</h3> */}
+					{/* <p></p> */}
 				</div>
 			</div>
 		</div>

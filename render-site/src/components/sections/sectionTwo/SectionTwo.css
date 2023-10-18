@@ -31,16 +31,36 @@
 	backdrop-filter: blur(10px);
 
 	color: white;
-	background: #474aff2e;
-
-	background: linear-gradient(0deg, #474aff96 0%, #bc48ff54 100%);
+	background: rgb(238, 174, 202);
+	background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, #aed9e0 100%);
 	border-radius: 24px;
 	margin: 0.5rem 0;
+
 	/* text-align: center; */
 }
 
 .features-wrapper .odd {
-	background: none;
+	/* background: none; */
+}
+.feature-img-one,
+.feature-img-two,
+.feature-img-three,
+.feature-img-four {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.feature-img-one {
+	background-image: url("../../../assets/img1.jpg");
+}
+.feature-img-two {
+	background-image: url("../../../assets/img2.jpg");
+}
+.feature-img-three {
+	background-image: url("../../../assets/img3.jpg");
+}
+.feature-img-four {
+	background-image: url("../../../assets/img4.jpg");
 }
 @media screen and (min-width: 1000px) {
 	.sectionTwoWrapper {

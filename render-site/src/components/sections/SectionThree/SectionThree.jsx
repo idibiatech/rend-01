@@ -3,7 +3,7 @@ import "./sectionthree.css";
 const SectionThree = () => {
 	return (
 		<div className="sectionTwoWrapper">
-			<h2>Pricing</h2>
+			<h2 id="contact">Get in touch</h2>
 		</div>
 	);
 };

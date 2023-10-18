@@ -3,7 +3,7 @@ const SectionOne = () => {
 	return (
 		<div className="sectionOneWrapper">
 			<div className="tagline-wrapper">
-				<h2>About us</h2>
+				<h2 id="about">About us</h2>
 				<p>
 					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim,
 					eligendi expedita necessitatibus sed facere a nobis? Quisquam
