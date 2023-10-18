@@ -36,13 +36,16 @@
 	border: 0;
 	cursor: pointer;
 }
+.hero-text .btn a {
+	color: black;
+}
 
 .hero-text .btn:hover {
 }
 @media screen and (min-width: 1000px) {
 	.hero-wrapper {
 		background-color: rgba(0, 0, 0, 0.418);
-		padding: 0 10rem;
+		padding: 0 20rem;
 	}
 	.hero-text {
 		align-items: start;

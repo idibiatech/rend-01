@@ -40,6 +40,7 @@
 @media screen and (min-width: 1000px) {
 	.Footer-wrapper {
 		padding: 2rem 4rem;
+		padding: 0 20rem;
 	}
 
 	.footer-top {

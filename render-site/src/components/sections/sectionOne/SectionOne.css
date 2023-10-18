@@ -1,5 +1,6 @@
 .sectionOneWrapper h2,
-p {
+p,
+h3 {
 	color: white;
 }
 
@@ -17,52 +18,62 @@ p {
 	flex-direction: column;
 	align-items: center;
 	padding: 3rem 1rem;
+	/* background-color: yellow; */
 }
-
-.features-wrapper {
-	height: auto;
-	display: grid;
-	width: 100%;
-	grid-template-rows: 1fr;
-
-	/* padding: 2rem 10rem; */
-}
-
-.feature {
-	min-height: 20vh;
-	height: auto;
+.how-container {
+	/* background-color: green; */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin: 2rem 0;
+}
+.how-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.how-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem 0;
+	height: 10rem;
+	/* background-color: red; */
 	padding: 1rem;
-	-webkit-backdrop-filter: blur(10px);
-	backdrop-filter: blur(10px);
-
-	color: white;
-	background: rgb(2, 0, 36);
-	background: linear-gradient(
-		54deg,
-		rgba(2, 0, 36, 1) 0%,
-		rgba(54, 5, 104, 1) 70%
-	);
-	border-radius: 24px;
-	margin: 0.5rem 0;
-	text-align: center;
+	position: relative;
 }
 
+.how-item .count {
+	color: white;
+	font-size: 100px;
+	transition: all ease 0.5s;
+	position: relative;
+	/* background-color: red; */
+}
+.how-item .count:hover span {
+	color: rgba(255, 255, 255, 0.738);
+	box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.394);
+	font-size: 101px;
+}
 @media screen and (min-width: 1000px) {
 	.sectionOneWrapper {
 		padding: 3rem 1rem;
+		padding: 0 20rem;
 	}
-	.features-wrapper {
+	.how-wrapper {
 		height: auto;
+
 		display: grid;
 
-		grid-template-columns: repeat(2, 50%);
+		grid-template-columns: repeat(3, 30%);
 		/* grid-template-rows: repeat(2, 50%); */
 	}
-	.feature {
+	.how-item {
 		margin: 1rem;
+		min-height: 15rem;
+		/* padding: 1rem; */
 	}
 }

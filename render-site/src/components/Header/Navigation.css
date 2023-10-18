@@ -1,15 +1,23 @@
 /* * {
 	outline: 2px solid red;
 } */
-
+.logo-wrapper {
+	background-color: red;
+	position: fixed;
+	top: 1rem;
+	/* right: 0; */
+	width: 4rem;
+	height: 2rem;
+	z-index: 100 !important;
+}
 .ham {
-	z-index: 10 !important;
 	width: 3rem;
 	height: 3rem;
-	background-color: white;
+	background-color: rgb(238, 0, 0);
 	position: fixed;
 	right: 1rem;
 	top: 1rem;
+	z-index: 100 !important;
 }
 header {
 	position: relative;
@@ -56,6 +64,13 @@ header {
 	.ham {
 		display: none;
 	}
+	header {
+		position: relative;
+		overflow: visible;
+	}
+	.logo-wrapper {
+		position: relative;
+	}
 	/* .nav-wrapper {
 		display: flex;
 	} */
@@ -72,7 +87,8 @@ header {
 		align-items: center;
 		/* padding: 0 3rem; */
 		height: 10vh;
-		z-index: 1;
+		z-index: 4;
+
 		/* display: none; */
 	}
 
@@ -84,7 +100,7 @@ header {
 
 	.link-wrapper {
 		height: 100%;
-		width: 30%;
+		width: 20%;
 		/* min-width: ; */
 	}
 	.link-wrapper ul {
