@@ -1,5 +1,6 @@
 .sectionTwoWrapper {
 	/* margin: 1rem 0; */
+	padding: 1rem;
 }
 
 .pricing-intro {
@@ -14,7 +15,9 @@
 	display: grid;
 	width: 100%;
 	grid-template-rows: 1fr;
+	/* background-color: red; */
 
+	border-radius: 24px;
 	/* padding: 2rem 10rem; */
 }
 
