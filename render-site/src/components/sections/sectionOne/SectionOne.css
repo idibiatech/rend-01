@@ -15,6 +15,10 @@ h3 {
 	align-items: center;
 	margin: 1rem 0;
 }
+.tagline-wrapper p,
+.how-bottom p {
+	text-align: center;
+}
 .sectionOneWrapper {
 	display: flex;
 	flex-direction: column;
@@ -49,7 +53,7 @@ h3 {
 .how-item {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: start;
 	margin: 1rem 0;
 	height: 10rem;
 	/* background-color: red; */
