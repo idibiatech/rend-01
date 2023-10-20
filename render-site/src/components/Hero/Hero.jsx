@@ -8,7 +8,7 @@ const Hero = () => {
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, nulla.
 				</h3>
 				<button className="btn">
-					<a href="#">Click me</a>
+					<a href="./login">Sign up</a>
 				</button>
 			</div>
 		</div>
