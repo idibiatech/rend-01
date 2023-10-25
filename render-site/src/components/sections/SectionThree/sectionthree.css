@@ -8,13 +8,13 @@
 	justify-content: center;
 }
 .send-email {
-	color: rgb(0, 0, 0);
+	color: rgb(0, 189, 66);
 	margin: 0 0.3rem;
 	font-weight: bold;
 }
 h2,
 p {
-	color: white;
+	color: black;
 }
 
 @media screen and (min-width: 1000px) {

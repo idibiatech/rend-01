@@ -18,7 +18,7 @@ const SectionTwo = () => {
 				<div className="feature ">
 					<h3>Free Plan</h3>
 					<p>
-						$0/mo - Ideal for small projects and occasional rendering needs.
+						N0 / mo - Ideal for small projects and occasional rendering needs.
 					</p>
 				</div>
 				<div className="feature odd  feature-img-two">
@@ -28,15 +28,15 @@ const SectionTwo = () => {
 				<div className="feature ">
 					<h3>Basic Plan</h3>
 					<p>
-						$XX - $XX/mo - Perfect for freelancers and small studios with
-						regular rendering
+						N20,000 - N50,000/mo - Perfect for freelancers and small studios
+						with regular rendering
 					</p>
 				</div>
 				<div className="feature  ">
 					<h3>Professional Plan</h3>
 					<p>
-						$XXX - $XXX/mo - Ideal for medium to large studios with frequent
-						rendering requirements.
+						N150,000 - N300,000/mo - Ideal for medium to large studios with
+						frequent rendering requirements.
 					</p>
 				</div>
 				<div className="feature  odd  feature-img-three">

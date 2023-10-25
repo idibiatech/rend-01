@@ -1,13 +1,22 @@
 import "./sectionone.css";
+import { useRef } from "react";
 const SectionOne = () => {
 	return (
 		<div className="sectionOneWrapper">
 			<div className="tagline-wrapper">
 				<h2 id="about">About us</h2>
 				<p>
-					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim,
-					eligendi expedita necessitatibus sed facere a nobis? Quisquam
-					accusamus dolorem excepturi.
+					At FT Rendering, we are passionate about turning your creative visions
+					into stunning visual realities. With a relentless commitment to
+					excellence and the power of cloud-based rendering, we've made it our
+					mission to empower architects, designers, and creators to bring their
+					projects to life with unparalleled quality and efficiency.
+				</p>
+				<p>
+					Our team of dedicated experts, along with cutting-edge technology,
+					ensures that your rendering needs are met with precision and speed.
+					We're not just a service provider; we're your creative partners, ready
+					to elevate your projects to new heights.
 				</p>
 			</div>
 
@@ -19,9 +28,9 @@ const SectionOne = () => {
 						<div className="how-content">
 							<h3>Simplify Your Rendering Process</h3>
 							<p>
-								At [Your Company], we've streamlined the rendering process to
-								make it effortless for you. Follow these simple steps to
-								experience hassle-free cloud rendering:
+								At FT Rendering, we've streamlined the rendering process to make
+								it effortless for you. Follow these simple steps to experience
+								hassle-free cloud rendering:
 							</p>
 						</div>
 					</div>
@@ -32,9 +41,10 @@ const SectionOne = () => {
 						<div className="how-content">
 							<h3>Upload Your Project</h3>
 							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-								quaerat inventore odit molestias quae voluptatibus odio fuga
-								molestiae ipsam tempora.
+								Start by uploading your 3D models, animations, or architectural
+								plans to our secure platform. Our system is compatible with a
+								wide range of file formats, making it easy to get your project
+								into our pipeline.
 							</p>
 						</div>
 					</div>
@@ -100,7 +110,7 @@ const SectionOne = () => {
 						<div className="how-content">
 							<h3>Get Creative</h3>
 							<p>
-								With the technical aspects handled by [Your Company], you can
+								With the technical aspects handled by FT Rendering, you can
 								focus on what you do best—being creative. Whether it's
 								architecture, animation, or product design, let us take care of
 								the rendering process.

@@ -1,40 +1,70 @@
 import "./footer.css";
+import logo from "../../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
 	return (
 		<div className="Footer-wrapper">
 			<div className="footer-top">
 				<div className="footer-left">
-					<div className="footer-logo">
-						<span>logo</span>
-					</div>
-					<p>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-						Voluptates, veritatis. Lorem ipsum dolor sit amet, consectetur
-						adipisicing elit. Dolorum dolore doloribus explicabo libero error
-						nihil fuga, ratione debitis tempora distinctio?
-					</p>
+					<Link to={"/"} className="footer-logo">
+						<img className="logo" src={logo} alt="" />
+					</Link>
+
+					<fiv className="content">
+						<p>
+							Discover the future of rendering with FT Rendering, where
+							innovation meets artistry.
+						</p>
+					</fiv>
 				</div>
 				<div className="footer-middle">
 					<h3>Resources</h3>
-					<ul>
-						<li>
-							<a href="">link</a>
-						</li>
-						<li>
-							<a href="">link</a>
-						</li>
-						<li>
-							<a href="">link</a>
-						</li>
-					</ul>
+					<div className="content">
+						<ul>
+							<li>
+								<Link to="/terms">Terms and conditions</Link>
+							</li>
+							<li>
+								<Link to="/privacy">Privacy policy</Link>
+							</li>
+							<li>
+								<Link to="/cookies">Cookie policy</Link>
+							</li>
+						</ul>
+					</div>
 				</div>
 				<div className="footer-right">
 					<h3>Contact us</h3>
-					<a href="">email</a>
+
+					<div className="content">
+						<a className="email" href="mailto:hello@ftrendering.com">
+							Hello@ftrendering.com
+						</a>
+						<p>
+							Enigmawave Solutions Ltd 25 Bankole St, Pedro 102216, Lagos,
+							Nigeria
+						</p>
+					</div>
+				</div>
+				<div className="footer-right">
+					<h3>Payment</h3>
+
+					<div className="content">
+						<ul className="pay-ul">
+							<li>
+								<i class="fa-brands fa-cc-mastercard fa-xl"></i>
+							</li>
+							<li>
+								<i class="fa-brands fa-cc-visa fa-xl"></i>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
-			<div className="footer-bottom">© site 2023.. All Rights Reserved.</div>
+			<div className="footer-bottom">
+				© FT Rendering 2023.. All Rights Reserved.
+			</div>
 		</div>
 	);
 };

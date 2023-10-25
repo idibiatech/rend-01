@@ -40,10 +40,28 @@
 	margin: 1rem 0;
 }
 
+.Footer-wrapper .content {
+	margin-top: 1.4rem;
+}
+.logo {
+	width: 10rem;
+	/* background-image: url('../../assets/logo.png'); */
+}
+.pay-ul {
+	display: flex;
+	/* justify-content: space-between; */
+	width: 100%;
+}
+.pay-ul li {
+	margin: 0 0.3rem;
+}
+
+.email {
+	color: rgb(0, 189, 66);
+}
 @media screen and (min-width: 1000px) {
 	.Footer-wrapper {
-		padding: 2rem 4rem;
-		padding: 0 20rem;
+		padding: 4rem 20rem;
 	}
 
 	.footer-top {

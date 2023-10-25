@@ -1,8 +1,11 @@
 import "./signup.css";
+import logo from "../../assets/logo.png";
 const SignUp = () => {
 	return (
 		<div className="signUpContainer">
-			<div className="logo">logo</div>
+			<div>
+				<img className="signlogo" src={logo} alt="" />
+			</div>
 			<div className="signUpWrapper">
 				<h1>Sign Up</h1>
 				<div className="form">

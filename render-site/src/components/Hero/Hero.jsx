@@ -1,14 +1,21 @@
+import { Link } from "react-router-dom";
 import "./hero.css";
+
 const Hero = () => {
 	return (
 		<div className="hero-wrapper">
 			<div className="hero-text">
-				<h1>Lorem ipsum dolor sit amet.</h1>
+				<h1>
+					<span>Unleash </span>
+					<span>Your Imagination</span>
+				</h1>
 				<h3>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, nulla.
+					Discover the future of rendering with FT Rendering, where innovation
+					meets artistry.
 				</h3>
+
 				<button className="btn">
-					<a href="./login">Sign up</a>
+					<Link to="/login">Sign up</Link>
 				</button>
 			</div>
 		</div>

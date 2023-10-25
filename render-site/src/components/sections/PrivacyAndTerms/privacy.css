@@ -1,0 +1,36 @@
+.content-wrapper {
+	background-color: black;
+	color: white !important;
+	padding: 5rem 2rem;
+}
+.rhome {
+	color: red;
+}
+.content-wrapper h1 {
+	background-color: black;
+	color: white;
+	margin-bottom: 2rem;
+}
+.content-wrapper p {
+	color: white;
+}
+.content-wrapper h2 {
+	color: white;
+}
+.content-wrapper h3 {
+	color: rgb(255, 255, 255);
+}
+.content-wrapper li {
+	color: white;
+}
+@media screen and (min-width: 1000px) {
+	.content-wrapper {
+		background-color: black;
+		color: white;
+		padding: 3rem 10rem;
+	}
+}
+
+.content-wrapper a {
+	color: red;
+}

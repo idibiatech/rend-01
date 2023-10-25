@@ -1,72 +1,8 @@
 // import { useState } from "react";
 // import "./navigation.css";
-
-// const Navigation = () => {
-// 	const [navOPen, setNavOpen] = useState(false);
-// 	const ham = document.querySelector(".ham");
-// 	const nav = document.querySelector("nav-wrapper-mobile");
-// 	const openNav = () => {
-// 		if (!navOPen) {
-// 			setNavOpen(!navOPen);
-
-// 			nav.classList.add("navopen");
-// 		} else {
-
-// 			setNavOpen(!navOPen);
-// 			nav.classList.add("navopen");
-// 		}
-// 	};
-
-// 	// const navAnim = gsap();
-
-// 	return (
-// 		<header>
-// 			<nav className="nav-wrapper">
-// 				<div className="logo-wrapper">Logo</div>
-// 				<div className="link-wrapper">
-// 					<ul>
-// 						<li>
-// 							<a href="#">link</a>
-// 						</li>
-// 						<li>
-// 							<a href="#">link</a>
-// 						</li>
-// 						<li className="account">
-// 							<a href="#">My account</a>
-// 						</li>
-// 					</ul>
-// 				</div>
-// 			</nav>
-
-// 			{/* mobile navigation  */}
-// 			<nav className="nav-wrapper-mobile">
-// 				<div
-// 					className="ham"
-// 					onClick={() => {
-// 						openNav;
-// 					}}
-// 				></div>
-// 				<div className="logo-wrapper">Logo</div>
-// 				<div className="link-wrapper">
-// 					<ul>
-// 						<li>
-// 							<a href="#">link</a>
-// 						</li>
-// 						<li>
-// 							<a href="#">link</a>
-// 						</li>
-// 						<li className="account">
-// 							<a href="#">My account</a>
-// 						</li>
-// 					</ul>
-// 				</div>
-// 			</nav>
-// 		</header>
-// 	);
-// };
-// export default Navigation;
-
-import React, { useState } from "react";
+import logo from "../../assets/logo.png";
+import { Link } from "react-router-dom";
+import React, { useState, useRef } from "react";
 import "./navigation.css";
 
 const Navigation = () => {
@@ -78,19 +14,21 @@ const Navigation = () => {
 
 	return (
 		<header>
-			<div className="ham" onClick={openNav}></div>
+			<div className="ham" onClick={openNav}>
+				<i class="fa-solid fa-bars fa-2xl"></i>
+			</div>
 			<nav className="nav-wrapper">
-				<div className="logo-wrapper">Logo</div>
+				<div className="logo-wrapper">
+					<Link to={"/"}>
+						<img className="logo" src={logo} alt="logo" />
+					</Link>
+				</div>
 				<div className="link-wrapper">
 					<ul>
-						<li>
-							<a href="./about">About</a>
-						</li>
-						<li>
-							<a href="#contact">Contact</a>
-						</li>
+						<li>{/* <a href="#about">About</a> */}</li>
+						<li>{/* <a href="#contact">Contact</a> */}</li>
 						<li className="account">
-							<a href="#">My account</a>
+							<Link href="#">My account</Link>
 						</li>
 					</ul>
 				</div>
@@ -102,15 +40,13 @@ const Navigation = () => {
 					navOpen ? "nav-wrapper-mobile " : "nav-wrapper-mobile navopen"
 				}
 			>
-				<div className="logo-wrapper">Logo</div>
+				<div className="logo-wrapper">
+					<img className="mobile-logo" src={logo} alt="logo" />
+				</div>
 				<div className="link-wrapper">
 					<ul>
-						<li>
-							<a href="#about">About</a>
-						</li>
-						<li>
-							<a href="#contact">Contact</a>
-						</li>
+						<li>{/* <a href="#about">About</a> */}</li>
+						<li>{/* <Link to="#contact">Contact</Link> */}</li>
 						<li className="account">
 							<a href="#">My account</a>
 						</li>

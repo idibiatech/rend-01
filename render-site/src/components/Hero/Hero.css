@@ -22,8 +22,11 @@
 }
 
 .hero-text h1 {
-	font-size: 5rem;
+	font-size: 3rem;
 	width: 100%;
+}
+h1 span {
+	display: block;
 }
 .hero-text h3 {
 	margin: 1rem 0;
@@ -57,5 +60,14 @@
 	}
 	.hero-text h1 {
 		width: 40%;
+		font-size: 5rem;
 	}
+	.hero-text h1 {
+	}
+	h1 span {
+		display: block;
+	}
+	/* .hero-text h3 {
+		margin: 1rem 0;
+	} */
 }

@@ -9,6 +9,9 @@
 	align-items: center;
 	justify-content: center;
 }
+.pricing-intro p {
+	text-align: center;
+}
 
 .features-wrapper {
 	height: auto;
@@ -69,7 +72,7 @@
 .feature-img-two:hover,
 .feature-img-three:hover,
 .feature-img-four:hover {
-	background-size: 101%;
+	/* background-size: 100.3%; */
 }
 @media screen and (min-width: 1000px) {
 	.sectionTwoWrapper {

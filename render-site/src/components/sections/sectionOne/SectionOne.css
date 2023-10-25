@@ -1,7 +1,7 @@
 .sectionOneWrapper h2,
 p,
 h3 {
-	color: white;
+	color: black;
 }
 .sectionOneWrapper h2 {
 	margin: 1rem 0;
@@ -62,11 +62,15 @@ h3 {
 }
 
 .how-item .count {
-	color: white;
+	color: red;
 	font-size: 100px;
 	transition: all ease 0.5s;
 	position: relative;
 	/* background-color: red; */
+}
+.how-content p {
+	/* background-color: yellow; */
+	color: black;
 }
 .how-item .count:hover span {
 	color: rgba(255, 255, 255, 0.738);
@@ -82,12 +86,13 @@ h3 {
 
 		display: grid;
 
-		grid-template-columns: repeat(3, 30%);
+		grid-template-columns: repeat(3, 35%);
 		/* grid-template-rows: repeat(2, 50%); */
 	}
 	.how-item {
 		margin: 1rem;
-		min-height: 15rem;
-		/* padding: 1rem; */
+		min-height: 20rem;
+		padding: 1rem;
+		/* background-color: red; */
 	}
 }
