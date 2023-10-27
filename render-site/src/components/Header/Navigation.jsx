@@ -28,7 +28,7 @@ const Navigation = () => {
 						<li>{/* <a href="#about">About</a> */}</li>
 						<li>{/* <a href="#contact">Contact</a> */}</li>
 						<li className="account">
-							<Link href="#">My account</Link>
+							<Link to="/account">My account</Link>
 						</li>
 					</ul>
 				</div>
@@ -48,7 +48,7 @@ const Navigation = () => {
 						<li>{/* <a href="#about">About</a> */}</li>
 						<li>{/* <Link to="#contact">Contact</Link> */}</li>
 						<li className="account">
-							<a href="#">My account</a>
+							<Link to="/account">My account</Link>
 						</li>
 					</ul>
 				</div>

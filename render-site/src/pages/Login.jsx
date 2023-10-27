@@ -1,5 +1,5 @@
-import SignUp from "../components/SignUp/SignUp";
+import SignIn from "../components/SignIn/SignIn";
 const Login = () => {
-	return <SignUp />;
+	return <SignIn />;
 };
 export default Login;
